@@ -1,7 +1,7 @@
 {
-  "name": "yjs-bem",
+  "name": "yu-bem",
   "version": "0.0.1",
-  "description": "Create class with BEM structure in JS",
+  "description": "Create className with BEM structure in JS",
   "license": "MIT",
   "author": "gnoyx",
   "main": "lib/index.js",

@@ -1,9 +1,9 @@
-# yjs-bem
+# yu-bem
 
 # Getting started
 
 ```
-npm install yjs-bem
+npm install yu-bem
 or 
-yarn add yjs-bem
+yarn add yu-bem
 ```
