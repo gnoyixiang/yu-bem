@@ -1,6 +1,6 @@
 {
   "name": "yu-bem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create className with BEM structure in JS",
   "license": "MIT",
   "author": "gnoyx",
