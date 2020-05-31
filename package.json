@@ -1,6 +1,6 @@
 {
   "name": "yu-bem",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Create className with BEM structure in JS",
   "license": "MIT",
   "author": "gnoyx",
@@ -14,7 +14,9 @@
     "build": "father-build",
     "clean": "rimraf ./es ./lib",
     "precommit": "standard --verbose | snazzy",
-    "publish": "npm run build && npm publish",
+    "publish:patch": "npm run build && npm version patch && npm publish",
+    "publish:minor": "npm run build && npm version minor && npm publish",
+    "publish:major": "npm run build && npm version major && npm publish",
     "sort": "npx sort-package-json",
     "test": "jest",
     "test:coverage": "jest --coverage",
