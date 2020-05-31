@@ -1,20 +1,20 @@
 {
-  "name": "bemyx",
+  "name": "yjs-bem",
   "version": "0.0.1",
   "description": "Create class with BEM structure in JS",
+  "license": "MIT",
+  "author": "gnoyx",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
     "es",
     "lib"
   ],
-  "author": "gnoyx",
-  "license": "MIT",
   "scripts": {
     "build": "father-build",
-    "clean": "rimraf ./es ./lib ./src/icons.js .docz",
+    "clean": "rimraf ./es ./lib",
     "precommit": "standard --verbose | snazzy",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "publish": "npm run build && npm publish",
     "sort": "npx sort-package-json",
     "test": "jest",
     "test:coverage": "jest --coverage",

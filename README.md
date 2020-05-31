@@ -1,9 +1,9 @@
-# bemyx
+# yjs-bem
 
 # Getting started
 
 ```
-npm install bemyx
+npm install yjs-bem
 or 
-yarn add bemyx
+yarn add yjs-bem
 ```
